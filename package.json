@@ -2,15 +2,15 @@
     "name": "box",
     "version": "1.0.0",
     "root": "alice",
-    "description": "",
+    "description": "带边框和标题的标准区块。",
     "homepage": "",
     "author": "",
     "repository": {
         "type": "git",
-        "url": ""
+        "url": "https://github.com/aliceui/box"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/aliceui/box/issues"
     },
     "license": "MIT",
     "dependencies": {

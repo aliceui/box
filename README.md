@@ -27,7 +27,7 @@
 </div>
 ````
 
-## 两个 box 相连
+### 两个区块相连
 
 ````html
 <div class="ui-box">
@@ -56,7 +56,7 @@
 </div>
 ````
 
-### 浅色系
+### 浅色系区块
 
 ````html
 <div class="ui-box ui-box-light">
@@ -73,7 +73,7 @@
 </div>
 ````
 
-### 内容隐藏
+### 内容区域隐藏
 
 ````html
 <div class="ui-box ui-box">

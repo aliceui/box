@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "root": "alice",
     "description": "带边框和标题的标准区块。",
+    "keywords": [
+        "区块"
+    ],
     "homepage": "",
     "author": "",
     "repository": {

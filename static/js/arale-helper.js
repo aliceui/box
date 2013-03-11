@@ -1,4 +1,11 @@
 ;(function() {
+
+  // 跨子域补丁
+  var temp = document.domain.split('.');
+  if (isNaN(temp[temp.length - 1])) {
+    document.domain = temp.slice(-2).join("."); 
+  }
+
   var CDN_MODULES = [
     'jquery', 'zepto', 'json', 'jasmine', 'underscore', 'handlebars',
     'seajs', 'moment', 'async', 'store', 'swfobject', 'backbone', 'raphael'

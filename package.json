@@ -1,12 +1,12 @@
 {
     "name": "box",
     "version": "1.0.0",
-    "root": "alice",
+    "family": "alice",
     "description": "带边框和标题的标准区块。",
     "keywords": [
         "区块"
     ],
-    "homepage": "",
+    "homepage": "http://aliceui.org/box/",
     "author": "",
     "repository": {
         "type": "git",
@@ -16,10 +16,8 @@
         "url": "https://github.com/aliceui/box/issues"
     },
     "license": "MIT",
-    "dependencies": {
-    },
-    "tests": ["box"],
-    "output": {
-        "box.css": "."
+    "spm": {
+      "alias": {},
+      "output": ["box.css"]
     }
 }

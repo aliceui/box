@@ -1,7 +1,5 @@
 /* alice.box 样式模块 */
 
-@charset "utf-8";
-
 .ui-box {
     border: 1px solid #ccc;
     zoom: 1;
@@ -27,24 +25,20 @@
 .ui-box-head {
     border-bottom: 1px solid #ccc;
     position: relative;
-}
-
-.ui-box-head-border {
-    border: 1px solid #fff;
-    height: 14px;
-    line-height: 16px;
-    overflow: hidden;
     padding: 10px;
-
-    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f1f1f1));
-    background: -moz-linear-gradient(top, #fcfcfc, #f1f1f1);
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f1f1f1');
-    background: -o-linear-gradient(top, #fcfcfc, #f1f1f1);
-    background: linear-gradient(top, #fcfcfc, #f1f1f1);
+    height: 16px;
+    line-height: 16px;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
+    background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f9f9f9');
+    background: -o-linear-gradient(top, #fcfcfc, #f9f9f9);
+    background: linear-gradient(top, #fcfcfc, #f9f9f9);
+    zoom: 1;
 }
+
 
 .ui-box-head .ui-box-head-title {
-    color: #4d4d4d;
+    color: #656565;
     font-size: 14px;
     font-weight: bold;
     float: left;
@@ -70,25 +64,4 @@
 
 .ui-box-content /* 可选，用于默认有内边距的box */ {
     padding: 10px;
-}
-
-/* 浅色 ，用于主站 */
-
-.ui-box-light,
-.ui-box-light .ui-box-head {
-    border-color: #d9d9d9;
-}
-
-.ui-box-light .ui-box-head-title {
-    color: #656565;
-}
-.ui-box-light .ui-box-head-border {
-    border: none;
-    height: 16px;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f9f9f9));
-    background: -moz-linear-gradient(top, #fcfcfc, #f9f9f9);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#f9f9f9');
-    background: -o-linear-gradient(top, #fcfcfc, #f9f9f9);
-    background: linear-gradient(top, #fcfcfc, #f9f9f9);
-    zoom: 1;    
 }

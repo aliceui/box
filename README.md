@@ -15,30 +15,9 @@
 ````html
 <div class="ui-box">
     <div class="ui-box-head">
-        <div class="ui-box-head-border">
-            <h3 class="ui-box-head-title">区块标题</h3>
-            <span class="ui-box-head-text">其他文字</span>
-            <a href="#" class="ui-box-head-more">更多</a>
-        </div>
-    </div>
-    <div class="ui-box-container">
-        <div class="ui-box-content">ui-box-content 有默认内边距</div>
-    </div>
-</div>
-````
-
-
-
-### 浅色系区块
-
-````html
-<div class="ui-box ui-box-light">
-    <div class="ui-box-head">
-        <div class="ui-box-head-border">
-            <h3 class="ui-box-head-title">浅色系</h3>
-            <span class="ui-box-head-text">其他文字</span>
-            <a href="#" class="ui-box-head-more">更多</a>
-        </div>
+        <h3 class="ui-box-head-title">区块标题</h3>
+        <span class="ui-box-head-text">其他文字</span>
+        <a href="#" class="ui-box-head-more">更多</a>
     </div>
     <div class="ui-box-container">
         <div class="ui-box-content">ui-box-content 有默认内边距</div>
@@ -51,11 +30,9 @@
 ````html
 <div class="ui-box">
     <div class="ui-box-head">
-        <div class="ui-box-head-border">
-            <h3 class="ui-box-head-title">没有内容</h3>
-            <span class="ui-box-head-text">其他文字</span>
-            <a href="#" class="ui-box-head-more">更多</a>
-        </div>
+        <h3 class="ui-box-head-title">没有内容</h3>
+        <span class="ui-box-head-text">其他文字</span>
+        <a href="#" class="ui-box-head-more">更多</a>
     </div>
     <div class="ui-box-container" style="display: none;">
         <div class="ui-box-content">ui-box-content 有默认内边距</div>
@@ -69,11 +46,9 @@
 ````html
 <div class="ui-box">
     <div class="ui-box-head">
-        <div class="ui-box-head-border">
-            <h3 class="ui-box-head-title">区块标题</h3>
-            <span class="ui-box-head-text">其他文字</span>
-            <a href="#" class="ui-box-head-more">更多</a>
-        </div>
+        <h3 class="ui-box-head-title">区块标题</h3>
+        <span class="ui-box-head-text">其他文字</span>
+        <a href="#" class="ui-box-head-more">更多</a>
     </div>
     <div class="ui-box-container">
         <div class="ui-box-content">ui-box-content 有默认内边距</div>
@@ -81,11 +56,9 @@
 </div>
 <div class="ui-box ui-box-follow">
     <div class="ui-box-head">
-        <div class="ui-box-head-border">
-            <h3 class="ui-box-head-title">连着上面的box</h3>
-            <span class="ui-box-head-text">其他文字</span>
-            <a href="#" class="ui-box-head-more">更多</a>
-        </div>
+        <h3 class="ui-box-head-title">连着上面的box</h3>
+        <span class="ui-box-head-text">其他文字</span>
+        <a href="#" class="ui-box-head-more">更多</a>
     </div>
     <div class="ui-box-container">
         <div class="ui-box-content">ui-box-content 有默认内边距</div>

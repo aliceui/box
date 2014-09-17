@@ -1,7 +1,6 @@
 {
-    "name": "box",
-    "version": "1.1.0",
-    "family": "alice",
+    "name": "alice-box",
+    "version": "1.2.0",
     "description": "带边框和标题的标准区块。",
     "keywords": [
         "区块"
@@ -17,7 +16,6 @@
     },
     "license": "MIT",
     "spm": {
-      "alias": {},
-      "output": ["box.css"]
+      "main": "index.css"
     }
 }

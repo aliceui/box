@@ -9,7 +9,7 @@
     border-bottom: none;
 }
 
-.ui-box: after {
+.ui-box:after {
     clear: both;
     content: " ";
     display: block;

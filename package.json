@@ -1,6 +1,6 @@
 {
     "name": "alice-box",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "带边框和标题的标准区块。",
     "keywords": [
         "区块"
